@@ -41,7 +41,7 @@ void SearcAverage(double[,] arr)
         {
             average = average + arr[i, j] / arr.GetLength(1);
         }
-        Console.WriteLine($"Средне арифметическое = {Math.Round(average, 1)}");
+        Console.WriteLine($"Среднее арифметическое = {Math.Round(average, 1)}");
     }
 }
 Console.Write("Введите число строк: ");
